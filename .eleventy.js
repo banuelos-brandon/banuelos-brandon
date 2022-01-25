@@ -3,7 +3,7 @@ module.exports = function (eleventyConfig) {
     return {
         passthroughFileCopy: true,
         dir: {
-            input: "src",
+            input: "index.html",
             output: "_site",
             includes: "includes",
         }
